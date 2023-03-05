@@ -1,0 +1,113 @@
+body{
+    background:linear-gradient(180deg,#94495D,white);
+    height :120px;
+    color:#94495D;
+    font-family :Arial, Helvetica, sans-serif;
+    font-size:80px;
+    font-weight:200;
+    display:flex;
+    margin-top: 100px;
+    justify-content:center;
+}
+.animation{
+    animation:color 3s infinite;
+    font-size: 80px;
+}
+@keyframes color{
+    0%{
+        letter-spacing:normal;
+        opacity: 1;
+    }
+    20%{
+        letter-spacing: normal;
+        opacity: 1;
+    }
+    80%{
+        letter-spacing: 2rem;
+        opacity: 0;
+    }
+    100%{
+        letter-spacing: 2rem;
+        opacity: 0;
+    }
+}
+body {
+    height: 120vh;
+    font-family: 'kokoro';
+    padding:30px;
+    background:linear-gradient(180deg,white,#94495D);;
+}
+header {
+    background-color:#94495D;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+
+}
+header * {
+display: inline;
+}
+header li{
+margin:20px;
+}
+header li a {
+color:black;
+text-decoration: none;
+font-family: 'kokoro';
+font-weight: 100;
+font-size: medium;
+
+}
+.rectangle-1 {
+    position: absolute;
+    width: 278px;
+    height: 257px;
+    left: 900px;
+    top: 450px;
+    background: #D9D9D9;
+    border-radius: 37px;
+    cursor: pointer;
+    transition: box-shadow 0.30s ;
+    }
+
+    .rectangle-1:hover {
+        box-shadow: 7px 7px 7px black;
+    }
+
+    .rectangle-2 {
+    position: absolute;
+    width: 278px;
+    height: 257px;
+    left: 530px;
+    top: 450px;
+    background: #D9D9D9;
+    border-radius: 37px;
+    cursor: pointer;
+    transition: box-shadow 0.30s ;
+    }
+
+    .rectangle-2:hover {
+        box-shadow: 7px 7px 7px black;
+    }
+
+    .rectangle-3 {
+    position: absolute;
+    width: 278px;
+    height: 257px;
+    left: 150px;
+    top: 450px;
+    background: #D9D9D9;
+    border-radius: 37px;
+    cursor: pointer;
+    transition: box-shadow 0.30s ;
+    }
+
+    .rectangle-3:hover {
+        box-shadow: 7px 7px 7px black;
+    }
+   
